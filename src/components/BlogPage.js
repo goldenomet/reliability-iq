@@ -7,7 +7,7 @@ const BlogPage = () => {
       {/* Header Section */}
       <div className="relative h-80">
         <img
-          src="/images/reliability-iq-banner.jpg" // Replace with your banner image
+          src="/assets/reliability-iq-banner.jpg" // Replace with your banner image
           alt="Reliability IQ Banner"
           className="absolute inset-0 w-full h-full object-cover opacity-70"
         />
@@ -44,7 +44,7 @@ const BlogPage = () => {
             </p>
           </div>
           <img
-            src="/images/predictive-maintenance.jpg" // Replace with your image
+            src="/assets/predictive-maintenance.jpg" // Replace with your image
             alt="Predictive Maintenance"
             className="rounded-lg shadow-lg"
           />
