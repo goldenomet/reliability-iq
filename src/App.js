@@ -1,18 +1,20 @@
-import React from 'react';
-import Navbar from './components/Navbar';
-import HeroSection from './components/HeroSection';
-import Catalog from './components/Catalog';
-import SubscriptionBox from './components/SubscriptionBox';
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Navbar from "./components/Navbar"; // Ensure you have this Navbar component
+import BlogPage from "./components/BlogPage"; // Ensure this BlogPage component exists
 
 const App = () => {
   return (
-    <div>
+    <Router>
       <Navbar />
-      <HeroSection />
-      <Catalog />
-      <SubscriptionBox />
-    </div>
+      <Routes>
+        <Route path="/" element={<div>Home Page</div>} /> {/* Replace with actual Home */}
+        <Route path="/blog" element={<BlogPage />} />
+        {/* Add other routes here as needed */}
+      </Routes>
+    </Router>
   );
 };
 
 export default App;
+

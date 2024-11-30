@@ -74,6 +74,15 @@ const Navbar = () => {
             <li className="hover:text-red-500"><a href="#blog" onClick={() => setIsOpen(false)}>Blog</a></li>
             <li className="hover:text-red-500"><a href="#contact" onClick={() => setIsOpen(false)}>Contact</a></li>
           </ul>
+
+          <ul className="hidden md:flex space-x-6">
+  <li className="hover:text-red-500"><a href="#home">Home</a></li>
+  <li className="hover:text-red-500"><a href="#catalog">Catalog</a></li>
+  <li className="hover:text-red-500"><a href="/blog">Blog</a></li> {/* Link to Blog */}
+  <li className="hover:text-red-500"><a href="#contact">Contact</a></li>
+</ul>
+
+
         </motion.div>
       )}
     </motion.nav>
