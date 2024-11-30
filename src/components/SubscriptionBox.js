@@ -13,7 +13,7 @@ const SubscriptionBox = () => {
         <input
           type="email"
           placeholder="Enter your email"
-          className="p-2 rounded border border-gray-300 w-3/4"
+          className="p-2 rounded border border-gray-300 w-3/4, text-slate-950"
           required
         />
         <motion.button
