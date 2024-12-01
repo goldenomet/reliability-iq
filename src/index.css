@@ -12,6 +12,22 @@ code {
     monospace;
 }
 
+@keyframes gradient {
+  0% {
+    background: linear-gradient(45deg, #5a1919, #644218, #801919);
+  }
+  50% {
+    background: linear-gradient(45deg, #f8e9d7, #516ed7, #7acfda);
+  }
+  100% {
+    background: linear-gradient(45deg, #0e522f, #4a4242, #081549);
+  }
+}
+
+.animate-gradient {
+  animation: gradient 6s ease infinite;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
