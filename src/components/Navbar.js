@@ -76,11 +76,11 @@ const Navbar = () => {
           </ul>
 
           <ul className="hidden md:flex space-x-6">
-  <li className="hover:text-red-500"><a href="#home">Home</a></li>
-  <li className="hover:text-red-500"><a href="#catalog">Catalog</a></li>
-  <li className="hover:text-red-500"><a href="/blog">Blog</a></li> {/* Link to Blog */}
-  <li className="hover:text-red-500"><a href="#contact">Contact</a></li>
-</ul>
+           <li className="hover:text-red-500"><a href="#home">Home</a></li>
+           <li className="hover:text-red-500"><a href="#catalog">Catalog</a></li>
+           <li className="hover:text-red-500"><a href="/blog">Blog</a></li> {/* Link to Blog */}
+           <li className="hover:text-red-500"><a href="#contact">Contact</a></li>
+          </ul>
 
 
         </motion.div>
