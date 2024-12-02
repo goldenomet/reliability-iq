@@ -37,7 +37,7 @@ const catalogItems = [
 const Catalog = () => {
   return (
     <div className="bg-gradient-to-r from-black via-red-700 to-black animate-gradient p-10 min-h-screen">
-      <h2 className="text-white font-bold text-3xl mb-8">ReliabilityIQ Solutions</h2>
+      <h2 className="text-white font-bold text-3xl mb-8 pos">ReliabilityIQ Solutions</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {catalogItems.map((item, index) => (
           <motion.div
